@@ -9,7 +9,7 @@ After installing the required tools, you will need to ensure that your computer 
 
 * Install [VirtualBox](https://www.virtualbox.org/wiki/Downloads)
 * Install [Vagrant](https://www.vagrantup.com/downloads.html)
-* Install [Packer](https://www.packer.io/downloads.html)
+* Install [Packer 1.2.3](https://releases.hashicorp.com/packer/)
 * Fork this repo to your own account
 * Clone the forked repo to your local machine using this command: `git clone http://github.com/<account-name>/devops-intro-project devops`, replacing `<account-name>` with your GitHub username.
 
