@@ -16,21 +16,7 @@ After installing the required tools, you will need to ensure that your computer 
 ## Part I: Building a box with Packer
 
 * Run `cd packer-templates`
-* Run `packer build -only=virtualbox-iso application-server.json`. You may see various timeouts and errors, as shown below. If you do, retry the command until the ISO download succeeds:
-
-```
-read: operation timed out
-==> virtualbox-iso: ISO download failed.
-Build 'virtualbox-iso' errored: ISO download failed.
-
-checksums didn't match expected
-==> virtualbox-iso: ISO download failed.
-Build 'virtualbox-iso' errored: ISO download failed.
-
-==> Some builds didn't complete successfully and had errors:
---> virtualbox-iso: ISO download failed.
-```
-
+* Run `packer build -only=virtualbox-iso application-server.json'
 * Run `cd virtualbox`
 * Run `vagrant box add ubuntu-14.04.6-server-amd64-appserver_virtualbox.box --name devops-appserver`
 * Run `vagrant up`
